@@ -66,6 +66,16 @@ html{
     width: 70px;
     height: 80px;
 }
+.nav-item{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s transform;
+    transform: scale(1);
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: .4s all;
+}
 
 
 /* 
@@ -237,7 +247,7 @@ html{
 }
 .detelis-card-desc .btn:hover{
     color: #000;
-    background-color: #DA9A29;
+    background-color: #00712F;
     transition: .6s all;
 }
 
@@ -334,12 +344,13 @@ html{
     padding: 1rem;
     font-size: 1.1rem;
     border-radius: .4rem;
-    border: none;
+    /* border: none; */
     margin:.5rem 0 ;
-    
+    background-color: #FFFF;
+    color: #000;
 }
 .sahin-btn:hover{
-    background-color: #DA9A29;
+    background-color: #00712F;
     transition: .6s all;
     color: #ffff;
 }
