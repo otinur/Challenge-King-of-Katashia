@@ -236,6 +236,23 @@ html{
 
 /* parsonal detelis design ends here  */
 
+/* bootstrap carousel design starts here */
+
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner{
+    background-color: #EEEEEE;
+}
+
+
+/* bootstrap carousel design ends here */
 
 /* sahin design starts here  */
 
