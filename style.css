@@ -238,10 +238,11 @@ html{
 
 /* bootstrap carousel design starts here */
 
-
+/* 
 .carousel-item{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
 }
 .carousel-item img{
     width: 100%;
@@ -249,7 +250,7 @@ html{
 }
 .carousel-inner{
     background-color: #EEEEEE;
-}
+} */
 
 
 /* bootstrap carousel design ends here */
